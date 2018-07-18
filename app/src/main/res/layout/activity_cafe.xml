@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".CafeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아메리카노(1000원)" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd2d2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페라떼(1500원)" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd2d2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페모카(1700원)" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd2d2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="할인카드 있음(10% 할인)" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="총 금액 계산" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주문개수 : 0 개"
+        android:textColor="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="할인금액 : 0 원"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/textResult3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="결제금액 : 0 원"
+        android:textColor="@android:color/holo_red_light" />
+</LinearLayout>
