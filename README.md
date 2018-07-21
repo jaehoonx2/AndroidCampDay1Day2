@@ -15,8 +15,8 @@ Some practice source codes of Android.
 * If users have cafe membership, the activity will discount total charge.
 
 ## MenuActivity
-* The purpose of the activity is simillar with CafeActivity.
-* RadioGroup and RadioButton is addded.
+* The purpose of the activity is similar with CafeActivity.
+* RadioGroup and RadioButton are addded.
 
 ## MemoActivity
 * The activity is a simple memopad app.
